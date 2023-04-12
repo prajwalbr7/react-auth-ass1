@@ -1,0 +1,58 @@
+/* Write your CSS code here */
+.Home-container-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Home-container {
+  margin-top: 50px;
+  padding: 30px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container2-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  height: 400px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.img-size-home {
+  width: 400px;
+  height: 400px;
+}
+.heading-style-home {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+  max-width: 500px;
+}
+.para-style-home {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #475569;
+  max-width: 518px;
+}
+.button-home-style {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #0967d2;
+  text-align: center;
+  width: 100px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 5px;
+  border-width: 0px;
+}
+.errorMessage {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  color: #ff0b37;
+}

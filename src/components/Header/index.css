@@ -1,0 +1,44 @@
+/* Write your CSS code here */
+.Header-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+.header-img-size {
+  height: 30px;
+}
+.ul-style-header {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 230px;
+  padding: 0px;
+}
+.link-style {
+  color: #475569;
+  text-decoration: none;
+}
+li {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+}
+.button-home-style-header {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #0967d2;
+  text-align: center;
+  width: 70px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 5px;
+  border-width: 0px;
+}
